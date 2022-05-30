@@ -1,0 +1,122 @@
+@import"./reset.css";
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+a{
+text-decoration: none;
+}
+li{
+    list-style: none;
+    text-transform: uppercase;
+    margin: 10px;
+}
+.flex-48{
+    flex: 0 1 48%;
+}
+.flex-30{
+    flex: 0 1 30%;
+}
+.full-width{
+width: 100%;
+}
+.padding{
+    padding: 50px 0px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: rgb(55,182,103);
+    text-transform: capitalize;
+    color: white;
+    border-radius: 3px;
+    font-weight: 500;
+}
+.heading{
+    text-transform: capitalize;
+}
+/* header */
+header{
+    background-color: rgb(34,41,70);
+    font-weight: 700;
+    padding: 16px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 30px;
+    color: green;
+}
+.navigation{
+    color: white;
+}
+.activ{
+    color: green;
+}
+/* article-section */
+.article-section{
+    background-color: rgb(233,236,252);
+}
+h1{
+    font-size: 35px;
+    font-weight: 500;
+}
+p{
+    color: rgb(176, 176, 177);
+    line-height: 1.4;
+    margin: 20px 0;
+}
+.img{
+    margin: 20px 0;
+}
+/* gellery-section */
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 32px 0;
+}
+h3{
+    font-size: 28px;
+    font-weight: bolder;
+}
+/* footer */
+footer{
+    background-color: rgb(34,41,70);
+    padding: 24px;
+    margin-top: 50px;
+}
+.fa-brands{
+    color: rgb(188,192,210);
+    font-size: 25px;
+    margin-left: 16px;
+}
+.footer-div a{
+    color: rgb(188,192,210);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media screen and (max-width:768px) {
+    html{
+        font-size: 14px;
+    }
+.flex-100{
+    flex: 1 1 100%;
+}
+   .wrap{
+       flex-wrap: wrap;
+   } 
+   .text-align{
+       text-align: center;
+   }   
+   .center{
+       display: flex;
+       justify-content: center;
+   }
+   .margin{
+       margin: 20px 0;
+   }
+}
