@@ -44,6 +44,7 @@ header{
 .flex{
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
 }
 .logo{
     font-size: 30px;
@@ -54,6 +55,12 @@ header{
 }
 .activ{
     color: green;
+}
+.nav a:hover{
+    color: green;
+}
+#toggle{
+    /* display: none; */
 }
 /* article-section */
 .article-section{
@@ -119,4 +126,29 @@ footer{
    .margin{
        margin: 20px 0;
    }
+   .order{
+       order: 1;
+   }
+   .flex-mq{
+       display: flex;
+   }
+   .flex-darection-mq {
+       display: flex;
+       flex-direction: column;
+   }
+   .nav-mq{
+       display: none;
+       
+   }
+   #toggle:checked ~ .nav-mq{
+       display: inline-block;
+   }
+   #toggle{
+       display: none;
+   }
+   .fa-bars{
+       font-size: 2rem;
+       color: ghostwhite;
+   }
+   
 }
